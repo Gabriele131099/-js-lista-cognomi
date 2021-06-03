@@ -11,3 +11,5 @@ while (i<arrayCognomi.length) {
     outputCognomi.innerHTML = arrayCognomi
 }
 outputIndice.innerHTML += parseInt(arrayCognomi.indexOf(cognome)) + parseInt(1) 
+
+
