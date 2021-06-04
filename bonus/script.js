@@ -7,10 +7,10 @@ function check() {
     arrayCognomi.sort()
     var outputCognomi= document.getElementById("check")
     var outputIndice = document.getElementById("checkNumb")
-   
-        outputCognomi.innerHTML =arrayCognomi 
-    outputIndice.innerHTML += parseInt(arrayCognomi.indexOf(cognome)) + parseInt(1) 
- };
+    
+        outputCognomi.innerHTML += arrayCognomi
+        outputIndice.innerHTML += parseInt(arrayCognomi.indexOf(cognome)+1)  
+         };
 
 
  
